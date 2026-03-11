@@ -34,8 +34,7 @@ function renderObjectResults(items) {
                 <img
                   src="${video.cover}" 
                   class="card" 
-                  alt="${video.title}" 
-                  style="width:515px;height:128.75px">
+                  alt="${video.title}">
               </a>
 
               <div class="card-body p-3">
