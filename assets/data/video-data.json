@@ -4,8 +4,8 @@
       "title": "Source Syllabus",
       "description": "Link to the source content. Official class syllabus.",
       "author": "Jane Austen",
-      "url": "../pages/SourceSyllabus.pdf",
-      "cover": "../assets/images/syllabus.png",
+      "url": ".../pages/SourceSyllabus.pdf",
+      "cover": ".../assets/images/syllabus.png",
       "duration": "",
       "genre": ["source", "original", "official syllabus"]
     },
