@@ -4,8 +4,8 @@
       "title": "Source Syllabus",
       "description": "Link to the source content. Official class syllabus.",
       "author": "Jane Austen",
-      "url": "../pages/SourceSyllabus.pdf",
-      "cover": "../assets/images/syllabus.png",
+      "url": "./pages/SourceSyllabus.pdf",
+      "cover": "./assets/images/syllabus.png",
       "duration": "",
       "genre": ["source", "original", "official syllabus"]
     },
@@ -13,8 +13,8 @@
       "title": "General Course Information",
       "description": "",
       "author": "",
-      "url": "../pages/CourseInfo.html",
-      "cover": "../assets/images/course-info.png",
+      "url": "./pages/CourseInfo.html",
+      "cover": "./assets/images/course-info.png",
       "duration": "",
       "genre": ["fantasy", "comedy", "adventure", "family", "drama", "mystery"]
     },
@@ -22,8 +22,8 @@
       "title": "Policies",
       "description": "",
       "author": "",
-      "url": "../pages/policies.html",
-      "cover": "../assets/images/policies.png",
+      "url": "./pages/policies.html",
+      "cover": "./assets/images/policies.png",
       "duration": "",
       "genre": ["novella", "fiction", "tragedy", "history"]
     }
