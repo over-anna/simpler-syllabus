@@ -6,7 +6,7 @@ let videoData;
 fetch("./assets/data/video-data.json")
   .then(response => {
     if (!response.ok) {
-      throw new Error("Failed to load video data");
+      throw new Error("Failed to load");
     }
     return response.json();
 
@@ -35,8 +35,7 @@ function renderObjectResults(items) {
                   src="${video.cover}" 
                   class="card" 
                   alt="${video.title}" 
-                  style="width:150px;height:240px"
-                >
+                  style="width:515px;height:128.75px">
               </a>
 
               <div class="card-body p-3">
@@ -48,12 +47,6 @@ function renderObjectResults(items) {
                   ${video.description}
                 </p>
               </div>
-
-              <div class="card-footer bg-white border-0 pt-0 pb-3 px-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <small class="text-muted">⏱ ${video.duration}</small>
-                  <span class="badge bg-secondary">YouTube</span>
-                </div>
               </div>
             </div>
           `;
