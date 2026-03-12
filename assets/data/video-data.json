@@ -4,7 +4,7 @@
       "title": "Source Syllabus",
       "description": "Link to the source content. Official class syllabus.",
       "author": "",
-      "url": "../pages/SourceSyllabus.pdf",
+      "url": "./pages/SourceSyllabus.pdf",
       "cover": "./assets/images/syllabus.png",
       "duration": "",
       "genre": ["source", "original", "official syllabus"]
@@ -13,7 +13,7 @@
       "title": "General Course Information",
       "description": "",
       "author": "",
-      "url": "../pages/CourseInfo.html",
+      "url": "./pages/CourseInfo.html",
       "cover": "./assets/images/course-info.png",
       "duration": "",
       "genre": ["fantasy", "comedy", "adventure", "family", "drama", "mystery"]
@@ -22,7 +22,7 @@
       "title": "AI Stance",
       "description": "",
       "author": "",
-      "url": "../pages/AIStance.html",
+      "url": "./pages/AIStance.html",
       "cover": "./assets/images/ai-stance.png",
       "duration": "",
       "genre": ["",""]
@@ -31,7 +31,7 @@
       "title": "Exam Proctoring",
       "description": "",
       "author": "",
-      "url": "../pages/ExamProctoring.html",
+      "url": "./pages/ExamProctoring.html",
       "cover": "./assets/images/exams.png",
       "duration": "",
       "genre": ["exams","proctoring"]
@@ -40,7 +40,7 @@
       "title": "Goals, Objectives, Topics, and Resources",
       "description": "",
       "author": "",
-      "url": "../pages/GoalObTopic.html",
+      "url": "./pages/GoalObTopic.html",
       "cover": "./assets/images/objectives.png",
       "duration": "",
       "genre": ["goals","objectives","topics","resources"]
@@ -49,7 +49,7 @@
       "title": "Grading",
       "description": "",
       "author": "",
-      "url": "../pages/Grading.html",
+      "url": "./pages/Grading.html",
       "cover": "./assets/images/grading.png",
       "duration": "",
       "genre": ["grading","grades","average","rounding"]
@@ -58,7 +58,7 @@
       "title": "Policies",
       "description": "",
       "author": "",
-      "url": "../pages/Policies.html",
+      "url": "./pages/Policies.html",
       "cover": "./assets/images/policies.png",
       "duration": "",
       "genre": ["policies","official"]
@@ -67,7 +67,7 @@
       "title": "Reporting & Contact",
       "description": "",
       "author": "",
-      "url": "../pages/ReportsContact.html",
+      "url": "./pages/ReportsContact.html",
       "cover": "./assets/images/contact.png",
       "duration": "",
       "genre": ["reporting","contact"]
