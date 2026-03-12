@@ -3,7 +3,7 @@
     {
       "title": "Source Syllabus",
       "description": "Link to the source content. Official class syllabus.",
-      "author": "Jane Austen",
+      "author": "",
       "url": ".../pages/SourceSyllabus.pdf",
       "cover": "./assets/images/syllabus.png",
       "duration": "",
@@ -19,13 +19,58 @@
       "genre": ["fantasy", "comedy", "adventure", "family", "drama", "mystery"]
     },
     {
+      "title": "AI Stance",
+      "description": "",
+      "author": "",
+      "url": ".../pages/AIStance.html",
+      "cover": "./assets/images/ai-stance.png",
+      "duration": "",
+      "genre": ["",""]
+    },
+    {
+      "title": "Exam Proctoring",
+      "description": "",
+      "author": "",
+      "url": ".../pages/ExamProctoring.html",
+      "cover": "./assets/images/exams.png",
+      "duration": "",
+      "genre": ["exams","proctoring"]
+    },
+    {
+      "title": "Goals, Objectives, Topics, and Resources",
+      "description": "",
+      "author": "",
+      "url": ".../pages/GoalObTopic.html",
+      "cover": "./assets/images/objectives.png",
+      "duration": "",
+      "genre": ["goals","objectives","topics","resources"]
+    },
+    {
+      "title": "Grading",
+      "description": "",
+      "author": "",
+      "url": ".../pages/Grading.html",
+      "cover": "./assets/images/grading.png",
+      "duration": "",
+      "genre": ["grading","grades","average","rounding"]
+    },
+    {
       "title": "Policies",
       "description": "",
       "author": "",
-      "url": ".../pages/policies.html",
+      "url": ".../pages/Policies.html",
       "cover": "./assets/images/policies.png",
       "duration": "",
-      "genre": ["novella", "fiction", "tragedy", "history"]
-    }
+      "genre": ["policies","official"]
+    },
+    {
+      "title": "Reporting & Contact",
+      "description": "",
+      "author": "",
+      "url": ".../pages/ReportsContact.html",
+      "cover": "./assets/images/contact.png",
+      "duration": "",
+      "genre": ["reporting","contact"]
+    },
   ]
 }
