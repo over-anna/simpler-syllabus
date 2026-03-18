@@ -11,66 +11,66 @@
     },
     {
       "title": "General Course Information",
-      "description": "",
+      "description": "General course information. All the first things to know about the class.",
       "author": "",
       "url": "./pages/CourseInfo.html",
       "cover": "./assets/images/course-info.png",
       "duration": "",
-      "genre": ["fantasy", "comedy", "adventure", "family", "drama", "mystery"]
+      "genre": ["instructor", "course information", "course description", "minimum technology requirements", "required text and materials"]
     },
     {
       "title": "AI Stance",
-      "description": "",
+      "description": "Information about AI usage in coursework.",
       "author": "",
       "url": "./pages/AIStance.html",
       "cover": "./assets/images/ai-stance.png",
       "duration": "",
-      "genre": ["",""]
+      "genre": ["ai","policy on ai use in coursework"]
     },
     {
       "title": "Exam Proctoring",
-      "description": "",
+      "description": "Details about exam proctoring.",
       "author": "",
       "url": "./pages/ExamProctoring.html",
       "cover": "./assets/images/exams.png",
       "duration": "",
-      "genre": ["exams","proctoring"]
+      "genre": ["exams","proctoring","smarterproctoring"]
     },
     {
-      "title": "Goals, Objectives, Topics, and Resources",
-      "description": "",
+      "title": "Objectives",
+      "description": "Course goals, objectives, topics, outcomes, and resources.",
       "author": "",
       "url": "./pages/GoalObTopic.html",
       "cover": "./assets/images/objectives.png",
       "duration": "",
-      "genre": ["goals","objectives","topics","resources"]
+      "genre": ["bba learning goals","course objectives","topics","program outcomes","abet student learning outcomes","resources"]
     },
     {
       "title": "Grading",
-      "description": "",
+      "description": "Course average, evaluation, and grade information.",
       "author": "",
       "url": "./pages/Grading.html",
       "cover": "./assets/images/grading.png",
       "duration": "",
-      "genre": ["grading","grades","average","rounding"]
+      "genre": ["grading","grades","average","rounding","scale"]
     },
     {
       "title": "Policies",
-      "description": "",
+      "description": "Common policies including course prerequisites, late assignments, make-up exams, and more.",
       "author": "",
       "url": "./pages/Policies.html",
       "cover": "./assets/images/policies.png",
       "duration": "",
-      "genre": ["policies","official"]
+      "genre": ["course prerequisite","late assignments","make up exam","attendance","participation","academic honesty","communication","withdrawal","acceptable use","disability accommodations","title ix"]
     },
     {
-      "title": "Reporting & Contact",
-      "description": "",
+      "title": "Contact",
+      "description": "Reporting, contact, and additional service information.",
       "author": "",
       "url": "./pages/ReportsContact.html",
       "cover": "./assets/images/contact.png",
       "duration": "",
-      "genre": ["reporting","contact"]
+      "genre": ["report","support services","technical support","confidential reporting","contact"]
     }
   ]
 }
