@@ -17,6 +17,10 @@ p {
   font-family: Tahoma;
 }
 
+ul {
+  margin-left: 1rem;
+}
+
 img {
   display: block;
   margin: auto;
@@ -30,4 +34,9 @@ h1 {
 
 .navbar {
   background-color: rgb(57, 150, 123);
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
