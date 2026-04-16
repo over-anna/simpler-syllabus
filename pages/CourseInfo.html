@@ -1,79 +1,140 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Information</title>
-  <link href="styles/syllabus-style.css" rel="stylesheet">
+  <link href="/styles/syllabus-style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-  <body class="d-flex flex-column min-vh-100">
-<nav class="navbar navbar-expand-sm navbar-dark sticky-top p-0">
-    <div class="container-fluid flex-column align-items-stretch px-0">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-      <div class="w-100 px-3 py-2 d-flex align-items-center">
-        <a class="navbar-brand fw-bold mb-0">SimplerSyllabus</a>
+<body class="d-flex flex-column min-vh-100">
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- logo (nav) -->
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top p-0">
+    <div class="w-100 px-3 py-2 d-flex align-items-center">
+      <a class="navbar-brand fw-bold mb-0">SimplerSyllabus</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-
-          <div class="py-3">
-            <div class="container">
-
-              <form class="d-flex align-items-center gap-2 justify-content-center">
-
-                <input id="searchBox" class="form-control form-control-md rounded-pill" type="search"
-                  placeholder="search..." aria-label="Search">
-                </ul>
-            </div>
-          </div>
-          </form>
-        </div>
-      </div>
+      <a class="navbar-brand mb-0 ms-center" href="/">home</a>
     </div>
   </nav>
 
-  
-  <h1>Instructor</h1>
-  <p>Name: Barry Cumbie, Ph.D.; Professor of Computer Science and Information Systems</p>
-  <p>Phone: (256) 765-4873</p>
-  <p>Email: bcumbie@una.edu</p>
-  <p>Office Location: 244 Computing & Mathematics</p>
-  <p>Office Hours:</p>
-  <p>Spring 2026: Monday-Thursday, 11:00am-12:30pm </p>
-  
-  <h1>Course Information</h1>
-  <p>Term: Spring 2026</p>
-  <p>Delivery Method: On Campus</p>
-  <p>Course Location: Computing and Mathematics 215</p>
-  <p>Course Day/Time: MW 9:30-10:45</p>
+  <div class="container my-4">
 
-  <h1>Course Description</h1>
-  <p>Introduction to Web development (design HCI and creation) using current standards for client-side content delivery (e.g., HTML and CSS). Students will learn to create and publish a multi-page, static-content website using associated applications. Special focus is given to user interface design, data presentation, and data organization. Prerequisite: CIS 225 (with a grade of C or higher) or CS 155 (with a grade of C or higher). (Fall, Spring, Summer on sufficient demand)</p>
+    <div class="row g-4">
 
-  <h1>Minimum Technology Requirements</h1>
-  <ul>
-    <li><strong>Computer:</strong> You will need a desktop, laptop, or notebook computer (PC or Mac) for online exam proctoring in this class. Tablets and mobile devices are not supported at this time.</li>
-    <li><strong>Webcam/Microphone:</strong> You will need a webcam and microphone for online exam proctoring in this class. This may be a webcam/microphone built in to your device or an external webcam/microphone that is connected to your device.</li>
-    <li><strong>Internet Connection:</strong> You are encouraged to use a broadband internet connection. Mobile hotspot/phone data speeds are problematic and should not be used.</li>
-    <li><strong>Internet Browser:</strong> You should use the Google Chrome internet browser during proctored exams. Google Chrome can be downloaded for free from Google Chrome Download.</li>
-  </ul>
+      <!-- Instructor Card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Instructor</h5>
+            <p><strong>Name:</strong> Barry Cumbie, Ph.D.</p>
+            <p><strong>Phone:</strong> (256) 765-4873</p>
+            <p><strong>Email:</strong> bcumbie@una.edu</p>
+            <p><strong>Office:</strong> 244 Computing & Mathematics</p>
+            <p><strong>Office Hours:</strong><br>
+              Spring 2026: Monday–Thursday, 11:00am–12:30pm
+            </p>
+          </div>
+        </div>
+      </div>
 
-  <h1>Required Text & Materials</h1>
-<p><strong>GitHub Account</strong></p>
-  <p><strong>Please Note</strong></p>
-  <ul>
-    <li>An account at <a href="https://github.com/">GitHub.com<a> is required for this class.</li>
-    <li>The same account is used for access to <a href="https://codepen.io/">CodePen.io</a> and <a href="https://www.codecademy.com/">CodeAcademy.com</a></li>
-    <li>Only free accounts are required, no premium or paid access</li>
-  </ul>
-  <p><strong>Computing Device & Internet Access</strong></p>
-  <p><strong>Please Note</strong></p>
-      <p>On-campus you may use the computers in Collier Library and/or the CSIS Computing Lab</p>
-    </body>
+      <!-- Course Info Card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Course Information</h5>
+            <p><strong>Term:</strong> Spring 2026</p>
+            <p><strong>Delivery:</strong> On Campus</p>
+            <p><strong>Location:</strong> Computing and Mathematics 215</p>
+            <p><strong>Schedule:</strong> MW 9:30–10:45</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Description Card -->
+      <div class="col-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Course Description</h5>
+            <p>
+              Introduction to Web development (design HCI and creation) using current standards for client-side content
+              delivery (e.g., HTML and CSS). Students will learn to create and publish a multi-page, staticcontent
+              website using associated applications. Special focus is given to user interface design, data presentation,
+              and data organization. Prerequisite: CIS 225 (with a grade of C or higher) or CS 155 (with a grade of C or
+              higher). (Fall, Spring, Summer on sufficient demand)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech Requirements Card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Technology Requirements</h5>
+            <ul>
+              <li><strong>Computer:</strong> You will need a desktop, laptop, or notebook computer (PC or Mac) for
+                online exam proctoring in this class. Tablets and mobile devices are not supported at this time. </li>
+
+              <li><strong>Webcam/Microphone:</strong> You will need a webcam and microphone for online exam proctoring
+                in this class. This may be a webcam/microphone built in to your device or an external webcam/microphone
+                that is connected to your device.</li>
+
+              <li><strong>Internet Connection:</strong> You are encouraged to use a broadband internet connection.
+                Mobile hotspot/phone data speeds are problematic and should not be used.</li>
+
+              <li><strong>Internet Browser:</strong> You should use the Google Chrome internet browser during proctored
+                exams. Google Chrome can be downloaded for free from <a
+                  href="https://www.google.com/chrome/?brand=GYPO&gclid=CNnbpMO1990CFVEjgQodw48EOw&gclsrc=ds&dclid=CIH-qcO1990CFUpswQodt4kExg">Google
+                  Chrome Download</a>.
+                <ul>
+                  <li><strong>Browser Plug-in:</strong> When opening an exam for the first time, students will be
+                    prompted
+                    to download a browser plug-in for SmarterProctoring. This plug-in is necessary for
+                    exam proctoring.</li>
+                </ul>
+
+              <li><strong>Microsoft Office:</strong> You may use Microsoft Office applications in this course. You can
+                download
+                a free copy of this software through your UNA Portal account. For instructions on how to
+                download your free copy, go to <a href="https://una.edu/its/free-microsoft-office.html"
+                  target="_blank">Free Office</a>.</li>
+
+              <li><strong>Canvas:</strong> You will use the Canvas Learning Management System (LMS) for this course. You
+                need to ensure
+                that your computer and your internet browser meet the requirements for using Canvas. For full, current
+                Canvas system requirements please visit <a
+                  href="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66"
+                  target="_blank">Canvas Browser and System Requirements</a></li>
+            </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Materials Card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Required Materials</h5>
+            <ul>
+              <li><a href="https://github.com/" target="_blank">GitHub Account</a></li>
+              <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+              <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+            </ul>
+            <p class="mt-2">Only free accounts are required, no premium or paid access. Your GitHub account will be used
+              to access both CodePen and Codecademy.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
 </html>
