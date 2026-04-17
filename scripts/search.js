@@ -1,9 +1,9 @@
 const searchBox = document.getElementById("searchBox");
-const videoGrid = document.getElementById("videoGrid");
+const pageGrid = document.getElementById("pageGrid");
 
-let videoData;
+let pageData;
 
-fetch("./assets/data/video-data.json")
+fetch("./assets/data/page-data.json")
   .then(response => {
     if (!response.ok) {
       throw new Error("Failed to load");
@@ -13,44 +13,44 @@ fetch("./assets/data/video-data.json")
   })
   .then(data => {
 
-    videoData = data;
-    console.log('video Data', videoData)
+    pageData = data;
+    console.log('page Data', pageData)
 
-    renderObjectResults(videoData.videos);
+    renderObjectResults(pageData.pages);
 
   });
 
 
 function renderObjectResults(items) {
-  videoGrid.innerHTML = "";
+  pageGrid.innerHTML = "";
 
-  items.forEach(video => {
+  items.forEach(page => {
     const col = document.createElement("div");
     col.className = "col-lg-3 col-md-4 col-sm-12";
 
     col.innerHTML = `
             <div class="card h-100 shadow-sm">
-              <a href="${video.url}" target="_blank">
+              <a href="${page.url}" target="_blank">
                 <img
-                  src="${video.cover}" 
+                  src="${page.cover}" 
                   class="card" 
-                  alt="${video.title}">
+                  alt="${page.title}">
               </a>
 
               <div class="card-body p-3">
                 <h6 class="card-title mb-1">
-                  ${video.title}
+                  ${page.title}
                 </h6>
 
                 <p class="card-text small text-muted mb-2">
-                  ${video.description}
+                  ${page.description}
                 </p>
               </div>
               </div>
             </div>
           `;
 
-    videoGrid.appendChild(col);
+    pageGrid.appendChild(col);
   });
 
 }
@@ -58,11 +58,11 @@ function renderObjectResults(items) {
 function handleGlobalObjectSearch() {
   const query = searchBox.value.trim().toLowerCase();
   if (!query) {
-    renderObjectResults(videoData.videos);
-    return videoData.videos;
+    renderObjectResults(pageData.pages);
+    return pageData.pages;
   }
 
-  const results = videoData.videos.filter(item => {
+  const results = pageData.pages.filter(item => {
     const values = Object.values(item);
     return values.some(value => String(value).toLowerCase().includes(query));
   });
