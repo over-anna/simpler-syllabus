@@ -1,6 +1,7 @@
 # SimplerSyllabus - Easy Syllabus Viewing!
 <p>Made by Anna Patillo using BootStrap styling</p>
 <p>Better than Best!</p>
+<p>Not affiliated with SimpleSyllabus</p>
 
 <p>REPO : <a href="https://github.com/over-anna/simpler-syllabus">CLICK ME<a></p>
 <p>APP : <a href="https://over-anna.github.io/simpler-syllabus/">CLICK ME<a></p>
