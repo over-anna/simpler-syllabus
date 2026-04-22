@@ -8,8 +8,8 @@
 # USER STORY
 <ul>
         <li>As a student</li>
-        <li>I want to view class information</li>
-        <li>So I can easily see what I need.</li>
+        <li>I want to search class information</li>
+        <li>So I can easily find what I need.</li>
 </ul>
 <p>Syllabi transformed the original syllabus into a searchable grid of organized information. This makes it easier to find exactly what you're looking for!</p>
 
