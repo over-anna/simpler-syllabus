@@ -6,9 +6,11 @@
 
 
 # USER STORY
-<p>As a student</p>
-<p>I want to view class information</p>
-<p>So I can easily see what I need.</p>
+<ul>
+        <li>As a student</li>
+        <li>I want to view class information</li>
+        <li>So I can easily see what I need.</li>
+</ul>
 <p>Syllabi transformed the original syllabus into a searchable grid of organized information. This makes it easier to find exactly what you're looking for!</p>
 
 # LINKS
