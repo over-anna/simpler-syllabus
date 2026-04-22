@@ -2,10 +2,18 @@
 <p>Made by Anna Patillo using BootStrap styling</p>
 <p>Better than Best!</p>
 
+# USER STORY
+<p>As a student</p>
+<p>I want to view class information</p>
+<p>So I can easily see what I need.</p>
+<br>
+<p>Syllabi transformed the original syllabus into a searchable grid of organized information. This makes it easier to find exactly what you're looking for!</p>
+
+# LINKS
 <p>REPO : <a href="https://github.com/over-anna/simpler-syllabus">CLICK ME<a></p>
 <p>APP : <a href="https://over-anna.github.io/simpler-syllabus/">CLICK ME<a></p>
 
-CODE SNIPPET :
+# CODE SNIPPET
 ```
 <div class="col-md-5">
         <div class="row g-4">
@@ -28,6 +36,7 @@ CODE SNIPPET :
           </div>
 ```
 <p>This code snippet shows one of the content cards used. The internal styling determines how the card looks, as well as it's placement on the page. For some cards, I utilized columns so that they wouldn't all be in one row.</p>
+<p>Row classes are beneficial in making sure every card moves to the same line based on the zoom of the page, and column classes move affected blocks beneath the previous block instead.</p>
 
 <p>Front end app fetching internal data. Uses Bootstrap styling, js code functions, and basic html.</p>
   
