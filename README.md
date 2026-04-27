@@ -27,6 +27,7 @@ pages/
 assets/data
 assets/images
 scripts/
+styles/
 index.html
 README.md
 ```
