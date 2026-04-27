@@ -62,4 +62,3 @@ README.md
 <p>APP : <a href="https://over-anna.github.io/simpler-syllabus/">CLICK ME<a></p>
 <p>NU : <a href="https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fsimpler-syllabus%2F">CLICK ME<a></p>
 <p>WAVE : <a href="https://wave.webaim.org/report#/https://over-anna.github.io/simpler-syllabus/">CLICK ME<a></p>
-<p>LINKED IN : <a href="https://www.linkedin.com/in/anna-patillo-0841553a4/?skipRedirect=true" target="_blank">CLICK ME</p>
